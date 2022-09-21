@@ -1,0 +1,32 @@
+﻿@model IEnumerable<Cliente>
+@{
+    ViewData["Title"] = "Clientes";
+}
+<h1>Clientes</h1>
+<a class="btn btn-primary"  asp-controller="Clientes" asp-action="Create">Criar</a>
+
+<table class="table table-responsive table-striped">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model=>model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model=>model.Nome)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var cliente in Model)
+        {
+            <tr>
+                <td>
+                    @cliente.Id
+                </td>
+                <td>
+                    @cliente.Nome
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1989,11 +1989,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tarsi\\source\\repos\\DesafioMVC\\DesafioMVC\\DesafioMVC.csproj",
+      "projectUniqueName": "C:\\Users\\tarsi\\source\\repos\\DesafioMVC\\MVC_AvaliacaoComentarios\\DesafioMVC\\DesafioMVC.csproj",
       "projectName": "DesafioMVC",
-      "projectPath": "C:\\Users\\tarsi\\source\\repos\\DesafioMVC\\DesafioMVC\\DesafioMVC.csproj",
+      "projectPath": "C:\\Users\\tarsi\\source\\repos\\DesafioMVC\\MVC_AvaliacaoComentarios\\DesafioMVC\\DesafioMVC.csproj",
       "packagesPath": "C:\\Users\\tarsi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tarsi\\source\\repos\\DesafioMVC\\DesafioMVC\\obj\\",
+      "outputPath": "C:\\Users\\tarsi\\source\\repos\\DesafioMVC\\MVC_AvaliacaoComentarios\\DesafioMVC\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\tarsi\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "a6DTVmLpR5FvMwrbGBHj7B7DGSH8MnypGx4TmUugyvTnzl01JJrvznpWQn+8i9mtMtBPYRo/q1VtvPaQH5zMLg==",
+  "dgSpecHash": "j3sF5u3cuyZmz8f48MkgB/CxSR7RB4QMlNv7gayFWiLfZ5B57rDvCnvQr2vhg2L0lDD+gtf8vIziFCxOkBAwCA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\tarsi\\source\\repos\\DesafioMVC\\DesafioMVC\\DesafioMVC.csproj",
+  "projectFilePath": "C:\\Users\\tarsi\\source\\repos\\DesafioMVC\\MVC_AvaliacaoComentarios\\DesafioMVC\\DesafioMVC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tarsi\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\tarsi\\.nuget\\packages\\microsoft.aspnet.mvc\\5.2.9\\microsoft.aspnet.mvc.5.2.9.nupkg.sha512",

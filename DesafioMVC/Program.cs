@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using DesafioMVC.Data;
-
+using DesafioMVC.Repositories;
+using DesafioMVC.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,8 +11,9 @@ OptionsBuilderConfigurationExtensions.UseSqlServer(builder.Configuration.GetConn
 
 
 
+builder.Services.AddScoped<IClienteRepository, ClienteRepository>();
 
-
+builder.Services.AddScoped<IClienteService, ClienteService>();
 
 
 // Add services to the container.

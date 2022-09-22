@@ -1,22 +1,23 @@
 ﻿
 @model  DesafioMVC.Models.Cliente;
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Edit";
 
     }
 
-<h1>Criar Cliente</h1>
+<h1>Editar Cliente</h1>
 
 <hr/>
 <div class="row">
     <div class="col-md-4">
-        <form asp-action="Create">
+        <form asp-action="Edit">
             
                 <div class="form-group">
                     <label asp-for="Nome" class="control-label"></label>
                         <input asp-for="Nome" type="text" class="form-control"/>
                         <span asp-validation-for="Nome" class="text-danger"></span>
                 </div>
+                <input type="hidden" asp-for="Id" />
                 <div class="form-group">
                     <label asp-for="Idade" class="control-label"></label>
                         <input asp-for="Idade" type="number" class="form-control"/>
@@ -32,11 +33,10 @@
                         <input asp-for="Email" type="text" class="form-control"/>
                         <span asp-validation-for="Email" class="text-danger"></span>
                 </div>
-            <div class="form-group">
-                <input type="submit" value="Criar" class="btn btn-primary"></input>
+                 <div class="form-group">
+                      <input type="submit" value="Editar" class="btn btn-primary"></input>
+
             </div>
         </form>
     </div>
 </div>
-
-                      
